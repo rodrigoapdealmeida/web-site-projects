@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="images/stars.png" id="stars" alt="">
+        <img src="images/moon.png" id="moon" alt="">
+        <img src="images/mountains_behind.png" id="mountains_behind" alt="">
+        <h2 id="text">Moon Light</h2>
+        <a href="#" id="btn">Explore</a>
+        <img src="images/mountains_front.png" id="mountains_front" alt="">
+    </section>
+    <div class="sec">
+        <h2>Parallax Scrolling Effects</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatem soluta fugit labore, ut sapiente! Repellat, temporibus officia, itaque obcaecati optio quisquam minima asperiores modi voluptate totam, beatae doloribus nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus cumque repudiandae corporis, laboriosam, eos, dignissimos sit consequatur eligendi odit nihil aspernatur iusto! Voluptatibus corrupti corporis nam odio quos modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa quia cum odio quos ducimus eligendi, quidem in numquam sit adipisci obcaecati saepe amet earum fugiat expedita recusandae fugit! Blanditiis. <br><br></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laudantium architecto quas provident tenetur perspiciatis iusto. Impedit alias, expedita sint unde nulla, fugiat quasi, corporis quam voluptas enim animi doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam officia quo placeat neque voluptates exercitationem sequi nisi repellat animi, similique unde, ut ratione quasi magni expedita aut velit fugit? <br><br></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium fugit repellat molestias ex soluta aperiam, totam cumque dolor ab eligendi, harum officiis vitae porro necessitatibus exercitationem nihil obcaecati perspiciatis assumenda!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi voluptatem soluta fugit labore, ut sapiente! Repellat, temporibus officia, itaque obcaecati optio quisquam minima asperiores modi voluptate totam, beatae doloribus nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam temporibus cumque repudiandae corporis, laboriosam, eos, dignissimos sit consequatur eligendi odit nihil aspernatur iusto! Voluptatibus corrupti corporis nam odio quos modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis culpa quia cum odio quos ducimus eligendi, quidem in numquam sit adipisci obcaecati saepe amet earum fugiat expedita recusandae fugit! Blanditiis. <br><br></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, laudantium architecto quas provident tenetur perspiciatis iusto. Impedit alias, expedita sint unde nulla, fugiat quasi, corporis quam voluptas enim animi doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur laboriosam officia quo placeat neque voluptates exercitationem sequi nisi repellat animi, similique unde, ut ratione quasi magni expedita aut velit fugit? <br><br></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero qui hic nesciunt, minima quidem rem ducimus voluptas eos nobis, voluptatibus est illo placeat officiis. Voluptate tenetur consequuntur ad rerum libero! . Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quae voluptates quasi reiciendis exercitationem, inventore voluptatem. Aperiam illum libero, dolorem quisquam quam molestias incidunt nihil exercitationem obcaecati tenetur dolorum laudantium.</p>
+    </div>
+
+    <footer>
+        <p>Website developed by <strong>Rodrigo Almeida</strong> &copy;2023</p>
+    </footer>
+
+   <script>
+    let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+            text.style.marginTop = value * 1.5 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.Top = value * 0.5 + 'px';
+        }) 
+   </script>
+</body>
+</html>
