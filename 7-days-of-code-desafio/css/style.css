@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #8E2424;
+    --cor-secundaria:#101828;
+    --cor-terciaria:#667085;
+
+    --font-principal: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+  }
+
+.cabecalho__links {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.cabecalho__links__logo {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.logotipo {
+    margin-right:  80px;
+}
+
+.logo__links__link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--font-principal);
+}
+
+.login__cadastro{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.login__cadastro__button__entrar {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 500px;
+}
+
+.login__cadastro__button__cadastrar {
+    background-color: #8E2424;
+    color: #FFF;
+    font-weight: bold;
+    font-family: var(--font-principal);
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #1018280D;
+    width: 112px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 100px;
+    height: 407px;
+}
+
+.sobre__nos {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cor-primaria);
+}
+
+h1 {
+    font-family: var(--font-principal);
+    font-size: 48px;
+    font-weight: 600px;
+}
+
+.p__sobre {
+    font-family: var(--font-principal);
+    font-size: 20px;
+    color: var(--cor-terciaria);
+    width: 791px;
+}
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.metricas__valor {
+    width: 280px;
+    height: 192px;
+}
+
+.metricas__valor__titulo {
+    color: var(--cor-primaria);
+    font-size: 60px;
+    padding-bottom: 12px;
+}
+
+.metricas__valor__info {
+    font-family: var(--font-principal);
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.p__metricas {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+    padding-top: 8px;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1798px;
+    margin-top: 96px;
+    gap: 20px;
+}
+
+.vagas__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.vagas__aviso {
+    font-family: var(--font-principal);
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+    background-color: #8E24240D;
+    border-radius: 1rem;
+    padding: 4px, 12px, 4px, 12px;
+    width: 125px;
+    height: 28px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.vagas__titulo {
+    font-family: var(--font-principal);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+
+}
+
+.p__vagas {
+    font-family: var(--font-principal);
+    font-size: 20px;
+    color: var(--cor-terciaria);
+}
+
+.baner {
+    width: 1216px;
+    height: 400px;
+    top: 298px;
+    left: 112px;
+    margin-top: 64px;
+}
+
+.container__vagas__card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 64px;
+}
+
+.titulo__cards {
+    font-family: var(--font-principal);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+}
+
+.vagas__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;;
+    border: 1px solid #EAECF0;
+    width: 768px;
+    height: 136px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.vagas__card__titulo {
+    font-family: var(--font-principal);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+}
+
+.p__container {
+    display: flex;
+    gap: 24px;
+}
+
+.vagas__card__p {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background-color: #C3191908;
+    width: 1216px;
+    height: 404px;
+   padding: 64px 0px 64px 0px;
+}
+
+.depoimentos__titulo {
+    font-family: var(--font-principal);
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.depoimentos__depoimento {
+    font-family: var(--font-principal);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+    width: 1088px;
+}
+
+.depoimentos__perfil__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.depoimentos__nome {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.depoimentos__p {
+    font-family: var(--font-principal);
+    font-size: 14px;
+    color: var(--cor-terciaria);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #F9FAFB;
+    padding: 96px 0px 96px 0px;
+    width: 100%;
+    margin-top: 96px;
+}
+
+.titulo__footer {
+    font-family: var(--font-principal);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+}
+
+.footer__p {
+    font-family: var(--font-principal);
+    font-size: 20px;
+    color: var(--cor-terciaria);
+}
+
+.caixa__texto {
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    width: 360px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD ;
+    font-family: var(--font-principal);
+    color: var(--cor-terciaria);
+    padding-left: 16px;
+    box-shadow: 2px 2px 2px #1018280D;
+}
+
+.direitos__autorais {
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+}
