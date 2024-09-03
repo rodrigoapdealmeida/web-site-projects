@@ -29,12 +29,12 @@ body {
 
 .cabecalho__links__logo {
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     align-items: center;
 }
 
 .logotipo {
-    margin-right:  80px;
+    margin-right: 5rem;
 }
 
 .logo__links__link {
@@ -45,7 +45,7 @@ body {
 
 .login__cadastro{
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
     align-items: center;
 }
 
@@ -54,23 +54,17 @@ body {
     color: var(--cor-terciaria);
     font-family: var(--font-principal);
     font-size: 1rem;
-    font-weight: 500px;
 }
 
 .login__cadastro__button__cadastrar {
-    background-color: #8E2424;
-    color: #FFF;
-    font-weight: bold;
-    font-family: var(--font-principal);
-    text-decoration: none;
-    font-size: 1rem;
-    border-radius: 8px;
-    box-shadow: 2px 2px 2px #1018280D;
-    width: 112px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-decoration: none;
+  font-family: var(--font-principal);
+  background-color: var(--cor-primaria);  
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-size: 1rem;
 }
 
 main {
@@ -84,9 +78,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
-    padding-top: 100px;
-    height: 407px;
+    gap: 2rem;
+    padding-top: 6.25rem;
+    height: 25.438rem;
 }
 
 .sobre__nos {
@@ -97,37 +91,37 @@ main {
 
 h1 {
     font-family: var(--font-principal);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600px;
 }
 
 .p__sobre {
     font-family: var(--font-principal);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--cor-terciaria);
-    width: 791px;
+    width: 49.438rem;
 }
 
 .metricas {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .metricas__valor {
-    width: 280px;
-    height: 192px;
+    width: 17.5rem;
+    height: 12rem;
 }
 
 .metricas__valor__titulo {
     color: var(--cor-primaria);
-    font-size: 60px;
-    padding-bottom: 12px;
+    font-size: 3.75rem;
+    padding-bottom: 0.75rem;
 }
 
 .metricas__valor__info {
     font-family: var(--font-principal);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500px;
 }
 
@@ -135,35 +129,35 @@ h1 {
     font-family: var(--font-principal);
     font-size: 1rem;
     color: var(--cor-terciaria);
-    padding-top: 8px;
+    padding-top: 0.5rem;
 }
 
 .vagas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1798px;
-    margin-top: 96px;
-    gap: 20px;
+    height: 112.375rem;
+    margin-top: 6rem;
+    gap: 1.25rem;
 }
 
 .vagas__info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .vagas__aviso {
     font-family: var(--font-principal);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
     color: var(--cor-primaria);
     background-color: #8E24240D;
     border-radius: 1rem;
-    padding: 4px, 12px, 4px, 12px;
-    width: 125px;
-    height: 28px;
+    padding: 0.25rem, 0.75rem, 0.25rem, 0.75rem;
+    width: 7.813rem;
+    height: 1.75rem;
     align-content: center;
     align-items: center;
     display: flex;
@@ -172,35 +166,35 @@ h1 {
 
 .vagas__titulo {
     font-family: var(--font-principal);
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--cor-secundaria);
 
 }
 
 .p__vagas {
     font-family: var(--font-principal);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--cor-terciaria);
 }
 
 .baner {
-    width: 1216px;
-    height: 400px;
-    top: 298px;
-    left: 112px;
-    margin-top: 64px;
+    width: 100%;
+    height: 25rem;
+    top: 18.625rem;
+    left: 7rem;
+    margin-top: 4rem;
 }
 
 .container__vagas__card {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding-top: 64px;
+    gap: 1.5rem;
+    padding-top: 4rem;
 }
 
 .titulo__cards {
     font-family: var(--font-principal);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: var(--cor-secundaria);
 }
@@ -210,22 +204,22 @@ h1 {
     flex-direction: column;
     border-radius: 1rem;;
     border: 1px solid #EAECF0;
-    width: 768px;
-    height: 136px;
-    padding: 24px;
-    gap: 24px;
+    width: 48rem;
+    height: 8.5rem;
+    padding: 1.5rem;
+    gap: 1.5rem;
 }
 
 .vagas__card__titulo {
     font-family: var(--font-principal);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
     color: var(--cor-secundaria);
 }
 
 .p__container {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .vagas__card__p {
@@ -238,25 +232,25 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
     background-color: #C3191908;
-    width: 1216px;
-    height: 404px;
-   padding: 64px 0px 64px 0px;
+    width: 76rem;
+    height: 25.25rem;
+    padding: 4rem 0rem 4rem 0rem;
 }
 
 .depoimentos__titulo {
     font-family: var(--font-principal);
     color: var(--cor-primaria);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
 }
 
 .depoimentos__depoimento {
     font-family: var(--font-principal);
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--cor-secundaria);
-    width: 1088px;
+    width: 68rem;
 }
 
 .depoimentos__perfil__informacoes {
@@ -276,7 +270,7 @@ h1 {
 
 .depoimentos__p {
     font-family: var(--font-principal);
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--cor-terciaria);
 }
 
@@ -285,22 +279,22 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     background-color: #F9FAFB;
-    padding: 96px 0px 96px 0px;
+    padding: 6rem 0rem 6rem 0rem;
     width: 100%;
-    margin-top: 96px;
+    margin-top: 6rem;
 }
 
 .titulo__footer {
     font-family: var(--font-principal);
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--cor-secundaria);
 }
 
 .footer__p {
     font-family: var(--font-principal);
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--cor-terciaria);
 }
 
@@ -311,12 +305,12 @@ footer {
 
 input {
     font-size: 1rem;
-    width: 360px;
-    border-radius: 8px;
+    width: 22.5rem;
+    border-radius: 0.5rem;
     border: 1px solid #D0D5DD ;
     font-family: var(--font-principal);
     color: var(--cor-terciaria);
-    padding-left: 16px;
+    padding-left: 1rem;
     box-shadow: 2px 2px 2px #1018280D;
 }
 
